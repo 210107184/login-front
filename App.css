@@ -1,0 +1,77 @@
+body {
+  background: url('C:\\Users\\Sabina\\Desktop\\React project\\demo\\public\\bg.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 350px;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9); /* Background color of the container with opacity */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 2px solid #fafafa8a; /* Border color */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 100%; /* Ensure the form takes the full width of the container */
+  margin-top: 20px;
+}
+
+form div {
+  width: 100%; /* Ensure the input fields take the full width of the form */
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"],
+button {
+  width: 100%;
+  padding: 8px; /* Increased padding to make the buttons and input boxes the same height */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  margin-top: 10px;
+  color: #dc3545;
+}
+
+.switch {
+  text-align: center;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.switch:hover {
+  text-decoration: underline;
+}
